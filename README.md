@@ -7,8 +7,11 @@ Para a página inicial que contém os produtos, fiz um foreach que irá buscar n
 Quando clicar em comprar de determinado item, vai para uma página que será carregada com as informações do item em questão.
 Quando clicar em confirmar compra ele irá executar uma ação que irá atualizar a Quantidade em Estoque no banco de dados, no caso irá diminuir.
 
-![e-commerce-claudiostore1](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/53a75658-7af8-4c26-a673-7c8e6a880114)
-![e-commerce-claudiostore2](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/5517667f-aaea-4e94-8739-d56cd2b45b26)
-![e-commerce-claudiostore3](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/05faff1b-ddd2-47e4-8922-24600a9739e6)
+![e-commerce-claudiostore1](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/5d399955-8b50-4d8b-a349-9626bab2126e)
+![e-commerce-claudiostore2](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/2451698f-cc04-4192-8f3b-90156eee9e3d)
+![e-commerce-claudiostore3](https://github.com/claudiokoori/ecommerce-claudiostore/assets/109890121/ff2d6ca5-1bc5-47ad-9871-8fce2e5d8ad2)
+
+
+
 
 Com o tempo irei melhorando o site, abraço!
