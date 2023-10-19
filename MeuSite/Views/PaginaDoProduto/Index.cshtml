@@ -1,0 +1,21 @@
+﻿@model Produto
+@{
+    ViewData["Title"] = $"{Model.Nome}";
+}
+
+
+<div class="pagina-principal d-flex justify-content-center align-items-center">
+    <img src="@Model.ImagemUrl" class="rounded mx-auto d-block" style="width: 600px; height: 700px;" alt="img">
+    <div class="conteudo-direita text-center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                @Model.Nome
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">$@Model.Preco</li>
+            </ul>
+        </div>
+        <input type="hidden" name="id" value="@Model.Id" />
+        <a asp-route-id="@Model.Id" asp-controller="PaginaDoProduto" asp-action="Comprar" class="btn btn-primary">CONFIRMAR COMPRA</a>
+    </div>
+</div>

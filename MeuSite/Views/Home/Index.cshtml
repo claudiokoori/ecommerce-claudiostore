@@ -1,0 +1,29 @@
+﻿@model List<Produto>
+@{
+    ViewData["Title"] = "Claudio Store";
+}
+
+
+ <div class="conteudo-principal">
+    <div class="produtos row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card text-center">
+                        <img src="@item.ImagemUrl" class="card-img-top" style="width: 305px; height: 400px" alt="ImagemDoProduto">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Nome</h5>
+                            <h6>$@item.Preco</h6>
+                            <p class="card-text">Quantidade em estoque: @item.QuantidadeEmEstoque</p>
+                            <a asp-route-id="@item.Id" asp-controller="PaginaDoProduto" asp-action="Index" class="btn btn-primary">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+
